@@ -14,9 +14,9 @@ int buzzer = 2;    //define buzzer
 void setup() {
   pinMode(tilt, INPUT_PULLUP); //tilt define
 
-  pinMode(lm35,INPUT); //LM35 define
+  pinMode(lm35,INPUT); //LM35 pinMode
 
-  pinMode(buzzer,OUTPUT);  //
+  pinMode(buzzer,OUTPUT);  //buzzer pinMode
 
   analogReference(INTERNAL); // sensing range 0～100℃，output voltage 0～1V
 

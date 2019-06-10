@@ -58,7 +58,7 @@ void loop() {
 }
 
 
-//warning alarm for oreintation
+//warning alarm for oreintation sensor
 void orientationWarningUP(){
   digitalWrite(buzzer,HIGH);
   delay(250);
@@ -66,7 +66,7 @@ void orientationWarningUP(){
   delay(250);
 }
 
-//warning alarm for temperature
+//warning alarm for temperature sensor
 void coolentWarning(){
   digitalWrite(buzzer,HIGH);
   delay(100);

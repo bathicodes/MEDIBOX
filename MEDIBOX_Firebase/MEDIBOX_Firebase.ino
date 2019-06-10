@@ -6,10 +6,10 @@ SoftwareSerial s(D6, D5);
 #include <ArduinoJson.h>
 
 
-#define WIFI_SSID "BELL4G-3256"
-#define WIFI_PASSWORD "Boysrulz1995"
-#define FIREBASE_HOST "medibox-ecba3.firebaseio.com"
-#define FIREBASE_AUTH "PSZTM8sHQbWCU3IU8gctJMI4A8JdBL5VM0VvBwuV"
+#define WIFI_SSID "add your wifi name here"
+#define WIFI_PASSWORD "add your wifi password here"
+#define FIREBASE_HOST "add firebase host here"
+#define FIREBASE_AUTH "add firebase Auth here"
 
 
 

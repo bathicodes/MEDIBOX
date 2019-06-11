@@ -16,8 +16,6 @@ SoftwareSerial s(D6, D5);
 void setup()
 {
 
-  //Serial.begin(9600);
-
   Serial.begin(9600);
   s.begin(9600);
   while (!Serial) continue;
@@ -44,7 +42,6 @@ void loop()
   int data1 = root["data1"];
   String stringOne =  String(data1);
   Serial.println(data1);
-  //delay(1000);
 
   int data2 = root["data2"];
   String stringTwo = String(data2);

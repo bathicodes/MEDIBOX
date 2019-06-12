@@ -2,7 +2,7 @@
 #include <ArduinoJson.h>
 SoftwareSerial s(5, 6);
 
-int tilt = 12;     //define tilit
+int tilt = 12;     //define tilt sensor
 int tiltVal = 0;  // varieable for tilt value caught
 
 int lm35 = A0;    //define LM35
@@ -12,7 +12,7 @@ int temperature = 0;  //temperature variable
 int buzzer = 2;    //define buzzer
 
 void setup() {
-  pinMode(tilt, INPUT_PULLUP); //tilt define
+  pinMode(tilt, INPUT_PULLUP); //tilt pinMode
 
   pinMode(lm35,INPUT); //LM35 pinMode
 
